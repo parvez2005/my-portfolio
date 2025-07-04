@@ -1,8 +1,8 @@
 .box{
-   display: flex;
-   /* justify-content: space-evenly; */
-padding: 80px;
-    display: inline;
+   
+   
+padding: 10px 20px;
+    font-weight: bold;
     color: white;
     
     
@@ -10,4 +10,29 @@ padding: 80px;
 .header{
     background-color: black;
     height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+h1{
+   text-align: center;
+   color: aqua;
+}
+p{
+    font-size: 40px;
+}
+.intro{
+    border: 2px solid blueviolet;
+    border-radius: 15px;
+    height: 510px;
+    
+    padding: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 50px;
+}
+.image{
+    background-size: cover;
 }
