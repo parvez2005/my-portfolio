@@ -1,5 +1,13 @@
-div{
+.box{
+   display: flex;
+   /* justify-content: space-evenly; */
+padding: 80px;
     display: inline;
+    color: white;
     
     
+}
+.header{
+    background-color: black;
+    height: 50px;
 }
